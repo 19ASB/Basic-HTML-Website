@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    vertical-align: middle;
+    margin-top: 1.5rem;
+    margin-left: 5%;
+}
+
+.header>p{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+.header>nav{
+    flex-grow: 1;
+}
+
+.header>nav>ul{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.header>nav>ul>li{
+    display: flex;
+    text-align: right;
+}
+
+.header>nav>ul>li>a{
+    margin-left: 10px;
+}
